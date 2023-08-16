@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Math Solver</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Complex Math Solver</h1>
+  </header>
+  <main>
+    <section class="search-section">
+      <input type="text" id="expressionInput" placeholder="Enter math expression">
+      <select id="categorySelect">
+        <option value="simplify">Simplify</option>
+        <option value="derive">Derive</option>
+        <!-- Add more options for other categories -->
+      </select>
+      <button id="searchButton">Search</button>
+    </section>
+    <section class="history-section">
+      <h2>Search History</h2>
+      <ul id="historyList"></ul>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
